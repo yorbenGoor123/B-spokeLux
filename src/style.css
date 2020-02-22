@@ -1066,9 +1066,9 @@ overflow-y:scroll;
     margin-bottom: 6rem;
   }
   .tower {
-    background-image: url('/');
+    background-image: url(/);
   }
-  
+
   .loader{
     position: absolute;
     z-index: -1;
