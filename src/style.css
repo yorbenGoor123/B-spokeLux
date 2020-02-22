@@ -1069,7 +1069,7 @@ overflow-y:scroll;
     background-image: url(/);
   }
 
-  .loader{
+  .loader {
     position: absolute;
     z-index: -1;
     top: 0;
