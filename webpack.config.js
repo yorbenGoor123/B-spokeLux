@@ -72,6 +72,10 @@ module.exports = (env, {mode}) => {
         template: './src/index.html',
         filename: './index.html'
       }),
+      new HtmlWebPackPlugin({
+        template: './src/pages/services.html',
+        filename: './pages/services.html'
+      }),
       new MiniCssExtractPlugin({
         filename: 'style.[contenthash].css'
       }),
